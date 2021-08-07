@@ -3,6 +3,9 @@ const express = require('express');
 //criando instância
 const app = express();
 
+//importando o router 
+//const categoriesController = require('./categories/CategoriesController');
+
 /**BANCO DE DADOS *************************/
 //importando a conexão com o banco de dados
 const connection = require('./database/database');
