@@ -4,13 +4,13 @@ const express = require('express');
 const router = express.Router();
 
 //criando a rota de categorias
-router.get('/categories',(rec,res)=>{
-    res.send("Rota de categorias");
+router.get('/articles',(rec,res)=>{
+    res.send("Rota de artigos");
 });
 
 //criando a rota para criar nova categoria
-router.get('/admin/categories/new',(req,res)=>{
-    res.send('Rota para criar nova categoria');
+router.get('/admin/articles/new',(req,res)=>{
+    res.send('Rota para criar um novo artigo');
 });
 
 //exportando o router
